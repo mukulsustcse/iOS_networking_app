@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/*
+ Fetch a string from "http://numbersapi.com/random/trivia" website and show it to the screen. Pressing the button allows user to get a new fact.
+ */
+
 struct ContentView: View {
     
     @ObservedObject var model:Model
